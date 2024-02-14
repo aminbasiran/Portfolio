@@ -7,12 +7,12 @@ import Tags from './Tags'
 
 const CompoundCard = ({children}) => {
     return (
-        <div className='my-10 border-b-2'>
+        <div className='my-10 border-b-2 dark:border-[#353336]'>
             <img src="https://framerusercontent.com/images/YIsIxDJp7KydTuX29jMuAqKIE.jpg?scale-down-to=2048" alt="" />
             {children}
             <div className='hover:cursor-pointer'>
                 <a href='https://github.com/aminbasiran' target='_blank' rel="noopener noreferrer">
-                    <button className='bg-[#3A71CA] p-2 m-2 text-xs font-semibold text-white'> View Github</button>
+                    <button className='bg-[#3A71CA] p-2 m-2 text-xs font-semibold text-white dark:bg-[#303131]'> View Github</button>
                 </a>
             </div>
         </div>

@@ -6,13 +6,14 @@ import { SiTailwindcss } from "react-icons/si";
 import { VscJson } from "react-icons/vsc";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
+import Layout from '../layout/Layout';
 
 
 
 const Project = () => {
     return (
         <div>
-            <h1 className='text-center text-4xl font-bold'>My notable projects</h1>
+            <h1 className='text-center text-4xl font-bold dark:text-white'>My Projects</h1>
             <p className='text-lg font-semibold mt-7  text-zinc-500'>Here are some of the projects I created over the years:</p>
             <CompoundCard>
                 <CompoundCard.Tags>

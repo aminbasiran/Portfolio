@@ -1,18 +1,19 @@
 import React from 'react'
 import { MdOutlineMapsHomeWork } from "react-icons/md";
+import Layout from '../layout/Layout';
 
 const Work = () => {
     return (
         <div>
-            <h1 className="text-center text-4xl font-bold mb-10">Work experiences</h1>
+            <h1 className="text-center text-4xl font-bold mb-10 dark:text-white">Work experiences</h1>
 
-            <div class="flex  items-center justify-center bg-white px-6 md:px-60">
+            <div class="flex  items-center justify-center bg-white px-6 md:px-60 dark:bg-[#181619]">
                 <div class="space-y-6 border-l-2 border-dashed">
 
                     <div class="relative w-full">
                         <MdOutlineMapsHomeWork className='absolute left-[-13px] text-2xl'/>
                         <div class="ml-6">
-                            <h4 class="font-bold text-left text-black">Ambank (M) Berhad</h4>
+                            <h4 class="font-bold text-left text-black dark:text-white">Ambank (M) Berhad</h4>
                             <div>
                             <h4 class="font-bold text-left text-sm text-blue-500">Executive Am-Digital</h4>
                                 <h4 class="font-bold text-xs text-left text-gray-400">Full-time</h4>
@@ -44,7 +45,7 @@ const Work = () => {
                     <div class="relative w-full">
                         <MdOutlineMapsHomeWork className='absolute left-[-13px] text-2xl'/> 
                         <div class="ml-6">
-                            <h4 class="font-bold text-left text-black">DHL APSSC</h4>
+                            <h4 class="font-bold text-left text-black dark:text-white">DHL APSSC</h4>
                             <div>
                                 <h4 class="font-bold text-left text-sm text-blue-500">Junior Associate - Data Management</h4>
                                 <h4 class="font-bold text-xs text-left text-gray-400">Contract</h4>
@@ -64,7 +65,7 @@ const Work = () => {
                     <div class="relative w-full">
                         <MdOutlineMapsHomeWork className='absolute left-[-13px] text-2xl'/>
                         <div class="ml-6">
-                            <h4 class="font-bold text-left text-black">Principal Asset Management Berhad</h4>
+                            <h4 class="font-bold text-left text-black dark:text-white">Principal Asset Management Berhad</h4>
                             <div className='mb-3'>
                                 <h4 class="font-bold text-left text-sm text-blue-500">Junior Business Process Engineer</h4>
                                 <h4 class="font-bold text-xs text-left text-gray-400">Contract</h4>

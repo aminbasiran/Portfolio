@@ -19,3 +19,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.active{
+  border-bottom: 3px solid #3A71CA;
+  border-top: 3px solid #3A71CA;
+  /* background-color: #35b0e9; */
+}
+
+#root {
+  max-width:100vw;
+  text-align: center;
+}
+
+.entry{
+    max-width:1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+li::marker {
+  color: rgb(70, 67, 67);
+}
+
+

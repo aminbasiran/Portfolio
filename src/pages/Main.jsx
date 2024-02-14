@@ -21,10 +21,12 @@ const Main = () => {
 
     const [basicActive, setBasicActive] = useState("tab1");
 
+
     const handleBasicClick = (value) => {
         if (value === basicActive) {
             return;
         }
+
         setBasicActive(value);
     };
 
@@ -40,11 +42,13 @@ const Main = () => {
             <FaLinkedin className="inline text-3xl"/>
             <FaGithubSquare className="inline text-3xl"/>
         </div>
-        
-        <div className="mb-3 mx-auto">
+
+
+        <div></div>
+
+        <div className="mb-3">
             <TETabs>
                 <TETabsItem
-                className=""
                 onClick={() => handleBasicClick("tab1")}
                 active={basicActive === "tab1"}
                 >
@@ -69,13 +73,6 @@ const Main = () => {
                 Tools
                 </TETabsItem>
             </TETabs>
-
-            <TETabsContent>
-                <TETabsPane show={basicActive === "tab1"}><About/></TETabsPane>
-                <TETabsPane show={basicActive === "tab2"}><Project/></TETabsPane>
-                <TETabsPane show={basicActive === "tab3"}><Work/></TETabsPane>
-                <TETabsPane show={basicActive === "tab4"}><Tool/></TETabsPane>
-            </TETabsContent>
         </div>
     </>
     )

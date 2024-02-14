@@ -5,7 +5,7 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 const toolsObj = [
     {
         tool : "Javascript",
-        icon : "",
+        icon : "    ",
     },
     {
         tool : "CSS",
@@ -44,7 +44,7 @@ const toolsObj = [
 const Tool = () => {
     return (
         <div>
-            <h1 className='text-center text-4xl font-bold mb-6'>Tools under my belt:</h1>
+            <h1 className='text-center text-4xl font-bold mb-6 dark:text-white'>Tools under my belt</h1>
             <div className='grid grid-cols-3 gap-3 my-3'>
 
                 {toolsObj.map(each => <TbBrandFramerMotion key={each.tool} className='text-6xl mx-auto' /> )}
