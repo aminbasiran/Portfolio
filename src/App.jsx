@@ -1,49 +1,32 @@
-import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Work from './components/work/Work';
-import Tool from './components/tool/Tool';
-import About from './components/about/About';
-import Project from './components/project/Project';
-import Layout from './components/layout/Layout';
+import Work from './pages/Work';
+import Tool from './pages/Tool';
+import About from './pages/About';
+import Project from './pages/Project';
 
 function App() {
 
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <Layout>
-                    <About/>
-        
-                </Layout>
-              
+      element: <About/>
     },
     {
       path: '/tools',
-      element: <Layout>
-      <Tool/>
-
-  </Layout>
+      element: <Tool/>
     },
     {
-      path: '/works',
-      element: <Layout>
-      <Work/>
-
-  </Layout>
+      path: '/work',
+      element: <Work/>
     },
     {
       path: '/projects',
-      element: <Layout>
-      <Project/>
-
-  </Layout>
+      element: <Project/>
     },
   ]);
 
   return (
-
       <RouterProvider router={router} />
-    
   )
 }
 
