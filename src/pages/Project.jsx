@@ -7,6 +7,9 @@ import { VscJson } from "react-icons/vsc";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import Layout from '../components/layout/Layout';
+import squashHUB_image from "/squashHUB.png"
+import squashAPI_image from "/squash-API.png"
+import amnbsrn_image from "/amnbsrn.dev.png"
 
 const Project = () => {
     return (
@@ -19,7 +22,7 @@ const Project = () => {
                             <span className='text-[#67dbcc] font-semibold mr-2'>React</span>
                             <span className='text-[#67dbcc] font-semibold mr-2'>TailwindCSS</span>
                         </ProjectCard.Tags>
-                        <ProjectCard.Image image=""/>
+                        <ProjectCard.Image image={amnbsrn_image}/>
                         <ProjectCard.Title>amnbsrn.dev</ProjectCard.Title>
                         
                         <ProjectCard.Description>My personal portfolio web app that showcases my experiences with software engineering and web development. (You're here now)  </ProjectCard.Description>
@@ -37,6 +40,7 @@ const Project = () => {
                             <span className='text-[#67dbcc] font-semibold mr-2'>TailwindCSS</span>
                             <span className='text-[#67dbcc] font-semibold mr-2'>Framer-Motion</span>
                         </ProjectCard.Tags>
+                        <ProjectCard.Image image={squashHUB_image}/>
                         <ProjectCard.Title url='https://squash-hub.netlify.app'>SquashHub.io</ProjectCard.Title>
                         <ProjectCard.Description>A simple web app that compiles all available squash courts and stores across Malaysia using Squash-API that I created. </ProjectCard.Description>
                         <ProjectCard.Tool>
@@ -51,6 +55,7 @@ const Project = () => {
                             <span className='text-[#67dbcc] font-semibold mr-2'>React</span>
                             <span className='text-[#67dbcc] font-semibold mr-2'>TailwindCSS</span>
                         </ProjectCard.Tags>
+                        <ProjectCard.Image image={squashAPI_image}/>
                         <ProjectCard.Title>Squash-API.io</ProjectCard.Title>
                         <ProjectCard.Description>An API for squash enthusiasts that compiles all courts available locally. Created by me and hosted using json-server. Feel free to contribute to more courts in malaysia.  </ProjectCard.Description>
                         <ProjectCard.Tool>
