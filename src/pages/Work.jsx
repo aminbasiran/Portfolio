@@ -7,14 +7,14 @@ const Work = () => {
         <Layout>
                 <div>
                     <h1 className="text-center text-3xl font-bold mb-10 dark:text-white">Work experiences</h1>
-                    <div class="flex  items-center justify-center bg-white px-6">
+                    <div class="mx-auto max-w-[600px]">
                         <div class="space-y-6 border-l-2 border-dashed">
                             <div class="relative w-full">
                                 <MdOutlineMapsHomeWork className='absolute left-[-13px] text-2xl'/>
                                 <div class="ml-6">
                                     <h4 class="font-bold text-left text-black dark:text-white">Ambank (M) Berhad</h4>
                                     <div>
-                                    <h4 class="font-bold text-left text-sm text-blue-500">Executive Am-Digital</h4>
+                                    <h4 class="font-bold text-left text-sm text-blue-500">Senior Executive Am-Digital</h4>
                                         <h4 class="font-bold text-xs text-left text-gray-400">Full-time</h4>
                                         <ul className='list-disc'>
                                             <li>
